@@ -119,4 +119,4 @@ records, tests, and schedules mouse and keyboard sequences on Windows.
 
 ---
 
-<sub>The banner is hand-rolled animated SVG. View source in this repo: <a href="assets/banner-dark.svg">assets/banner-dark.svg</a>.</sub>
+<sub>The banner is hand-rolled SVG. View source in this repo: <a href="assets/banner-dark.svg">assets/banner-dark.svg</a>.</sub>
