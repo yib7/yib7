@@ -19,7 +19,7 @@
     <text x="48" y="88" font-size="20"><tspan fill="#0f766e">$ </tspan><tspan fill="#1f2328">whoami</tspan></text>
     <text x="48" y="132" font-size="32" font-weight="700" fill="#0d1117">yibarek tadesse</text>
     <text x="48" y="180" font-size="20"><tspan fill="#0f766e">$ </tspan><tspan fill="#1f2328">cat about.md</tspan></text>
-    <text x="48" y="210" font-size="20" fill="#57606a">
+    <text x="48" y="210" font-size="30" fill="#57606a">
       <tspan x="48" dy="0">Hi, I'm Yibarek, a recent CS grad from the College of William &amp; Mary. I like building tools that</tspan>
       <tspan x="48" dy="30">create solutions, improve everyday life, or are just fun little knickknacks using the newest</tspan>
       <tspan x="48" dy="30">technologies. If you would, I'd love for you to take a look at some of the work I've done. Feel free</tspan>
