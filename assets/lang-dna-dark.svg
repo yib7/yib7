@@ -1,0 +1,36 @@
+<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language breakdown across public repos, by hand-authored code only (excludes benchmark corpora and vendored libraries): Python 76.7%, JavaScript 8.6%, HTML/CSS 7.3%, Java 4.4%, Other 2.1%, C 1.0%">
+  <defs>
+    <clipPath id="pill"><rect x="30" y="24" width="1140" height="16" rx="8"/></clipPath>
+    <style>
+      .seg {
+        transform-box: fill-box; transform-origin: left center;
+        transform: scaleX(0); animation: grow 0.9s ease-out forwards;
+      }
+      .s2 { animation-delay: 0.15s; } .s3 { animation-delay: 0.3s; }
+      .s4 { animation-delay: 0.45s; } .s5 { animation-delay: 0.6s; } .s6 { animation-delay: 0.75s; }
+      @keyframes grow { to { transform: scaleX(1); } }
+      .lg { opacity: 0; animation: fadein 0.6s ease-out 0.9s forwards; }
+      @keyframes fadein { to { opacity: 1; } }
+      text { font-family: 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; fill: #9fb0c7; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#pill)">
+    <rect x="30" y="24" width="1140" height="16" fill="#1c2636"/>
+    <rect class="seg"    x="30"   y="24" width="874" height="16" fill="#3572A5"/>
+    <rect class="seg s2" x="904"  y="24" width="50"  height="16" fill="#f1e05a"/>
+    <rect class="seg s3" x="954"  y="24" width="98"  height="16" fill="#e34c26"/>
+    <rect class="seg s4" x="1052" y="24" width="83"  height="16" fill="#b07219"/>
+    <rect class="seg s5" x="1135" y="24" width="24"  height="16" fill="#8b949e"/>
+    <rect class="seg s6" x="1159" y="24" width="11"  height="16" fill="#a8b9cc"/>
+  </g>
+
+  <g class="lg">
+    <circle cx="36"  cy="76" r="6" fill="#3572A5"/><text x="50"  y="81">Python 76.7%</text>
+    <circle cx="216" cy="76" r="6" fill="#f1e05a"/><text x="230" y="81">JavaScript 8.6%</text>
+    <circle cx="396" cy="76" r="6" fill="#e34c26"/><text x="410" y="81">HTML/CSS 7.3%</text>
+    <circle cx="576" cy="76" r="6" fill="#b07219"/><text x="590" y="81">Java 4.4%</text>
+    <circle cx="756" cy="76" r="6" fill="#8b949e"/><text x="770" y="81">Other 2.1%</text>
+    <circle cx="936" cy="76" r="6" fill="#a8b9cc"/><text x="950" y="81">C 1.0%</text>
+  </g>
+</svg>
