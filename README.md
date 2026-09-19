@@ -109,12 +109,12 @@ records, tests, and schedules mouse and keyboard sequences on Windows.
 
 ## By the numbers
 
-<img src="https://img.shields.io/badge/public%20repos-9-0d9488?style=flat-square" alt="9 public repos"> <img src="https://img.shields.io/badge/automated%20tests-3%2C600%2B-6366f1?style=flat-square" alt="3,600+ automated tests"> <img src="https://img.shields.io/badge/GitHub%20Actions%20CI-every%20repo-0891b2?style=flat-square" alt="GitHub Actions CI on every repo">
+<img src="https://img.shields.io/badge/public%20repos-9-0d9488?style=flat-square" alt="9 public repos"> <img src="https://img.shields.io/badge/automated%20tests-5%2C000%2B-6366f1?style=flat-square" alt="5,000+ automated tests"> <img src="https://img.shields.io/badge/GitHub%20Actions%20CI-every%20repo-0891b2?style=flat-square" alt="GitHub Actions CI on every repo">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/lang-dna-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/lang-dna-light.svg">
-  <img alt="Language breakdown across public repos, hand-authored code only: Python 77%, JavaScript 9%, HTML/CSS 7%, Java 4%, C 1%" src="assets/lang-dna-dark.svg" width="100%">
+  <img alt="Language breakdown across public repos, hand-authored code only: Python 81%, JavaScript 8%, HTML/CSS 6%, Java 3%, C 1%" src="assets/lang-dna-dark.svg" width="100%">
 </picture>
 
 ---
