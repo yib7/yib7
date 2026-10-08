@@ -84,7 +84,7 @@ CodeBLEU at 0.854 but RAG fixes more real bugs, 35.8% of 201.
 </tr>
 </table>
 
-### Smaller projects
+### Other projects
 
 [**Lumen**](https://github.com/yib7/Lumen) is a CPU raytracer in C with recursive
 reflections, shadows, and anti-aliasing; OpenMP takes a 1200x900 render from 3.7s
