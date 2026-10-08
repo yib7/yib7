@@ -49,7 +49,7 @@ each posting without fabricating a word.
 
 ### [xeno-series-rag](https://github.com/yib7/xeno-series-rag)
 
-Local-first RAG chatbot over the 36k-article Xeno Series Wiki. Hybrid
+Local-first RAG chatbot over the 34k-article Xeno Series Wiki. Hybrid
 dense + BM25 retrieval with reranking; every answer cites the wiki pages
 it came from. Evaluated against a 200-question gold set.
 
@@ -71,7 +71,7 @@ every code sample in a Python sandbox before you see it.
 </td>
 <td width="50%" valign="top">
 
-### [pretrain-or-prompt](https://github.com/yib7/Strats-for-Bug-Fixing)
+### [pretrain-or-prompt](https://github.com/yib7/pretrain-or-prompt)
 
 Four-arm study: does pretraining a small T5 beat prompting or LoRA-adapting
 a bigger code LLM at fixing Java bugs? Scored on CodeBLEU and on whether the
@@ -92,12 +92,16 @@ to 0.5s. [**Tessera**](https://github.com/yib7/Tessera) is a Java 21 Swing memor
 game: tile themes, skill-based scoring, a persistent leaderboard, and a
 double-click jar. [**clicker_snail**](https://github.com/yib7/clicker_snail)
 records, tests, and schedules mouse and keyboard sequences on Windows.
+[**school-curriculum-survey-analysis**](https://github.com/yib7/school-curriculum-survey-analysis)
+is a data report for William & Mary's Public Opinion Polling Lab: OLS regression in R
+on three U.S. surveys of how question wording and partisanship shape views on
+teaching race in schools.
 
 ## Stack
 
 **Languages**
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C"> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX"> <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C"> <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R"> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX"> <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook">
 
 **Frameworks and libraries**
 
@@ -109,12 +113,12 @@ records, tests, and schedules mouse and keyboard sequences on Windows.
 
 ## By the numbers
 
-<img src="https://img.shields.io/badge/public%20repos-9-0d9488?style=flat-square" alt="9 public repos"> <img src="https://img.shields.io/badge/automated%20tests-5%2C000%2B-6366f1?style=flat-square" alt="5,000+ automated tests"> <img src="https://img.shields.io/badge/GitHub%20Actions%20CI-every%20repo-0891b2?style=flat-square" alt="GitHub Actions CI on every repo">
+<img src="https://img.shields.io/badge/public%20repos-10-0d9488?style=flat-square" alt="10 public repos"> <img src="https://img.shields.io/badge/automated%20tests-13%2C000%2B-6366f1?style=flat-square" alt="13,000+ automated tests"> <img src="https://img.shields.io/badge/GitHub%20Actions%20CI-9%20of%2010%20repos-0891b2?style=flat-square" alt="GitHub Actions CI on 9 of 10 repos">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/lang-dna-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/lang-dna-light.svg">
-  <img alt="Language breakdown across public repos, hand-authored code only: Python 81%, JavaScript 8%, HTML/CSS 6%, Java 3%, C 1%" src="assets/lang-dna-dark.svg" width="100%">
+  <img alt="Language breakdown across public repos, hand-authored code only: Python 89%, JavaScript 4%, HTML/CSS 3%, Java 2%, C under 1%" src="assets/lang-dna-dark.svg" width="100%">
 </picture>
 
 ---
